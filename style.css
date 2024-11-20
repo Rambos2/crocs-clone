@@ -1,0 +1,921 @@
+
+  *{
+    font-family: Muli, sans-serif;
+  }
+  body{
+    margin:0px;
+  }
+  .head1,.head2{
+   float:left;
+    width:50%;
+    height:30px;
+    background-color: rgb(14, 10, 6);
+    padding-top: 10px;
+
+  }
+  .head1 a
+  {
+    color:white;
+    font-size: 15px;
+    font-weight:bold;
+    text-decoration: none;
+    margin-left:550px;
+  }
+  .head2 img{
+    width:20px;
+    height:20px;
+  }
+  .head2 a{
+    color:white;
+    font-size: 15px;
+    font-weight:bold;
+    text-decoration: none;
+    margin-left: 550px;
+  }
+  .logo
+  {
+    float:left;
+    width:10%;
+    height:70px;
+    background-color:rgb(244 244 244);
+  }
+  .logo img{
+    width:120px;
+    height:85px;
+    margin-left:30px;
+  }
+  .bar{
+    float:left;
+    width:75%;
+    height:70px;
+    background-color:rgb(244 244 244); 
+  }
+  nav
+  {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin:0 auto;
+    margin-right:0px;
+    margin-left:80px;
+  }
+  .navigation
+  {
+    width:90%;
+    height:120px;
+    align-items: center;
+    list-style:none;
+   padding-right:55px;
+  }
+  .navigation ul  {
+    display:flex;
+    justify-content:space-between;
+    list-style-type:none;
+    padding:25px;
+    list-style: none;
+  }
+  .navigation ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 1.2;
+    font-weight: bolder;
+    color:black;
+  }
+  .icons
+  {
+    display: flex;
+    float:left;
+    width:15%;
+    height:50px;
+    background-color: rgb(244 244 244);
+    padding-top:20px;
+    justify-content:space-evenly;
+  }
+.search
+  {
+    width:25px;
+    height:25px;
+  }
+  .like
+  {
+    width: 30px;
+    height:30px;
+  }
+  .kart
+  {
+    width:30px;
+    height:30px;
+  }
+  .float
+  {
+    width:100%;
+    height:10px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .float p{
+    font-size:16px;
+    word-spacing: 3px;
+  }
+  .float a{
+    text-decoration: underline;
+  }
+  .pic1{
+    float:left;
+    width:100%;
+    height:700px;
+  }
+  .pic1 img
+  {
+    width:100%;
+    height:700px;
+    margin:1rem 0;
+    vertical-align: middle;
+    border-color: white;
+    border-bottom: 2px;
+  }
+ .pic2
+  {
+    float:left;
+    width:100%;
+    height:700px;
+  }
+  .pic2 img{
+    width:100%;
+    height:700px;
+  }
+  .pic3
+  {
+    float:left;
+    width:100%;
+    height:700px;
+  }
+  .pic3 img{
+    width:100%;
+    height:700px;
+  }
+  .ads
+  {
+    display:flex;
+    width:100%;
+    height:500px;
+    background-image: url('wall.webp');
+
+  }
+  .ads .boxes
+  {
+    width: 236px;
+    height: 315px;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid white;
+    margin-left: 25px;
+    position: relative;
+    left: 60px;
+    top: 87px;
+  }
+  /*box1 styles */
+  .box1 .ad
+  {
+    width: 211px;
+    height: 224px;
+  }
+  .box1 .wish
+  {
+    width: 34px;
+    height: 36px;
+    position: relative;
+    bottom: 219px;
+    left: 2px;
+}
+.box1 .productname{
+  color:grey;
+  position: relative;
+  bottom:62px;
+  left:10px;
+}
+.buttons{
+  width:75px;
+  height:20px;
+}
+.buttons button{
+width:10px;
+height:12px;
+border-radius: 40px;
+border-style: none;
+position: relative;
+left:10px;
+bottom:63px;
+}
+.buttons :nth-child(1)
+{
+  background-color: black;
+}
+.buttons :nth-child(2)
+{
+  background-color:lightgrey;
+}
+.buttons :nth-child(3)
+{
+  background-color:rgb(175, 116, 60);
+}
+.buttons :nth-child(4)
+{
+  background-color:rgb(135, 127, 138);
+}
+.box1 h3{
+  color: #046CA3;
+    position: relative;
+    bottom: 244px;
+    left: 158px;
+    font-size: 15px;
+}
+.box1 .p1{
+  color: rgb(81, 132, 5);
+    font-weight: bold;
+    float: left;
+    position: relative;
+    bottom: 70px;
+    left: 47px;
+}
+.box1 .to{
+  float: left;
+  font-size: smaller;
+  position: relative;
+  bottom: 65px;
+  left: 54px;
+}
+.box1 .p2{
+  position: relative;
+  bottom: 69px;
+  left: 61px;
+}
+/*box2 styles*/
+.box2 .ad2
+  {
+    width: 211px;
+    height: 224px;
+  }
+  .box2 .wish
+  {
+    width: 34px;
+    height: 36px;
+    position: relative;
+    bottom: 219px;
+    left: 2px;
+}
+.box2 .productname{
+  color:grey;
+  position: relative;
+  bottom:62px;
+  left:10px;
+}
+.box2buttons{
+  width:75px;
+  height:20px;
+}
+.box2buttons button{
+width:10px;
+height:12px;
+border-radius: 40px;
+border-style: none;
+position: relative;
+left:10px;
+bottom:63px;
+}
+.box2buttons :nth-child(1)
+{
+  background-color: black;
+}
+.box2buttons :nth-child(2)
+{
+  background-color:rgb(143, 72, 54);
+}
+.box2buttons :nth-child(3)
+{
+ 
+  background-color:rgb(195, 176, 145);
+}
+.box2 h3{
+  color: #046CA3;
+    position: relative;
+    bottom: 244px;
+    left: 158px;
+    font-size: 15px;
+}
+.box2 .box2p1{
+    font-weight: bold;
+    float: left;
+    position: relative;
+    bottom: 68px;
+    left: 77px;
+}
+/*box3 styling*/
+.box3 .ad3
+  {
+    width: 211px;
+    height: 224px;
+  }
+  .box3 .wish
+  {
+    width: 34px;
+    height: 36px;
+    position: relative;
+    bottom: 219px;
+    left: 2px;
+}
+.box3 .productname{
+  color:grey;
+  position: relative;
+  bottom:62px;
+  left:10px;
+}
+.box3buttons{
+  width:75px;
+  height:20px;
+}
+.box3buttons button{
+width:10px;
+height:12px;
+border-radius: 40px;
+border-style: none;
+position: relative;
+left:10px;
+bottom:63px;
+}
+.box3buttons :nth-child(1)
+{
+  background-color: black;
+}
+.box3buttons :nth-child(2)
+{
+  background-color:rgb(240, 232, 201);
+}
+
+.box3 h3{
+  color: #046CA3;
+    position: relative;
+    bottom: 244px;
+    left: 175px;
+    font-size: 15px;
+}
+.box3 .box3p1{
+    font-weight: bold;
+    float: left;
+    position: relative;
+    bottom: 68px;
+    left: 87px;
+}
+
+/*box4 styling*/
+.box4 .ad4
+  {
+    width: 211px;
+    height: 224px;
+  }
+  .box4 .wish
+  {
+    width: 34px;
+    height: 36px;
+    position: relative;
+    bottom: 219px;
+    left: 2px;
+}
+.box4 .productname{
+  color:grey;
+  position: relative;
+  bottom:62px;
+  left:10px;
+}
+.box4buttons{
+  width:75px;
+  height:20px;
+}
+.box4buttons button{
+width:10px;
+height:12px;
+border-radius: 40px;
+border-style: none;
+position: relative;
+left:10px;
+bottom:63px;
+}
+.box4buttons :nth-child(1)
+{
+  background-color: black;
+}
+.box4buttons :nth-child(2)
+{
+  background-color:rgb(240, 232, 201);
+}
+.box4buttons :nth-child(3)
+{
+  background-color: rgb(255, 204, 180);
+}
+.box4 h3{
+  color: #046CA3;
+    position: relative;
+    bottom: 244px;
+    left: 175px;
+    font-size: 15px;
+}
+.box4 .box4p1{
+  color: rgb(0, 0, 0);
+    font-weight: bold;
+    float: left;
+    position: relative;
+    bottom: 70px;
+    left: 75px;
+}
+/*box5 styling....*/
+.box5 .ad5
+  {
+    width: 211px;
+    height: 224px;
+  }
+  .box5 .wish
+  {
+    width: 34px;
+    height: 36px;
+    position: relative;
+    bottom: 219px;
+    left: 2px;
+}
+.box5 .productname{
+  color:grey;
+  position: relative;
+  bottom:62px;
+  left:10px;
+}
+.box5buttons{
+  width:75px;
+  height:20px;
+}
+.box5buttons button{
+width:10px;
+height:12px;
+border-radius: 40px;
+border-style: none;
+position: relative;
+left:10px;
+bottom:63px;
+}
+.box5buttons :nth-child(1)
+{
+  background-color: black;
+}
+.box5buttons :nth-child(2)
+{
+  background-color:rgb(240, 232, 201);
+}
+.box5buttons :nth-child(3)
+{
+  background-color: rgb(255, 204, 180);
+}
+.box5 h3{
+  color: #046CA3;
+    position: relative;
+    bottom: 244px;
+    left: 175px;
+    font-size: 15px;
+}
+.box5 .box5p1{
+  color: rgb(81, 132, 5);
+    font-weight: bold;
+    float: left;
+    position: relative;
+    bottom: 68px;
+    left: 47px;
+}
+.box5 .box5to{
+  float: left;
+  font-size: smaller;
+  position: relative;
+  bottom: 64px;
+  left: 54px;
+}
+.box5 .box5p2{
+  position: relative;
+  bottom: 70px;
+  left: 61px;
+}
+.box1 .leftarrow
+{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom: 260px;
+    right: 51px;
+    opacity:0.6;
+}
+.box5 .rightarrow
+{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  bottom: 260px;
+  left: 242px;
+}
+/*image4*/
+.pic4{
+  max-width:100%;
+  max-height:50%;
+}
+.pic4 img{
+  max-width:100%;
+  max-height:50%;
+}
+.pic5{
+  max-width:100%;
+  max-height:50%;
+}
+.pic5 img{
+  max-width:100%;
+  max-height:50%;
+}
+.shopbystyle
+{
+  width:100%;
+  height:74px;
+  background-color:white;
+}
+.shopbystyle h1
+{
+  display: inline;
+  color: black;
+  border:2px solid rgb(151, 194, 78);
+  padding:5px;
+  position: relative;
+  left:603px;
+  top:20px;
+}
+.stylespic
+{
+  width:100%;
+  height:80%;
+  background-color:white;
+  margin-left:15px;
+
+}
+.stylespic img{
+  width:420px;
+  height:420px;
+  border:15px solid rgb(255, 255, 255);
+  outline:10px solid #f5f5f5;
+  margin-left:20px;
+  margin-bottom:20px;
+}
+.droplist
+{
+  width:100%;
+  height:500px;
+  background-color: white;
+  color:grey;
+}
+.droplist .droplistbox
+{
+  width:600px;
+  height:230px;
+  background-color: blue;
+  position: relative;
+  left:440px;
+  top:100px;
+}
+.droplistbox div
+{
+  width:600px;
+  height:57px;
+  background-color:white;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+  word-spacing: 5px;
+}
+.drop1 img{
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: 347px;
+  top: 21px;
+}
+.drop1 label{
+  position: relative;
+  top:10px;
+}
+.drop2 img{
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: 363px;
+  top: 21px;
+}
+.drop2 label{
+  position: relative;
+  top:10px;
+}
+.drop3 img{
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: 483px;
+  top: 21px;
+}
+.drop3 label{
+  position: relative;
+  top:10px;
+}
+.drop4 img{
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: 419px;
+  top: 21px;
+}
+.drop4 label{
+  position: relative;
+  top:10px;
+}
+.features
+{
+  width:100%;
+  height:250px;
+  background-color:lightgrey;
+  display:flex;
+}
+.ship
+{
+  width:25%;
+  height:250px;
+  background-color:lightgrey;
+}
+.ship img{
+  width: 55px;
+  height: 55px;
+  position: relative;
+  left: 140px;
+  top: 63px;
+}
+.ship label{
+  color: black;
+  position: relative;
+  top: 48px;
+  left: 95px;
+  font-size: 13px;
+}
+.ship h4{
+  position: relative;
+  top: 52px;
+  left: 120px;
+}
+.return
+{
+  width:21%;
+  height:250px;
+  background-color:lightgrey;
+}
+.return img{
+  width:55px;
+  height:55px;
+  position: relative;
+  top:80px;
+  left:150px;
+}
+.return h4{
+  position: relative;
+  left:120px;
+  top:60px;
+}
+.return label:first-of-type{
+  color:black;
+  position: relative;
+  left:20px;
+  top:50px;
+  font-size:13px;
+}
+.return label:last-of-type{
+color:black;
+position: relative;
+  left:100px;
+  top:56px;
+  font-size:13px
+}
+.guarantee
+{
+  width:25%;
+  height:250px;
+  background-color:lightgray; 
+}
+.guarantee img{
+  width:55px;
+  height:55px;
+  position: relative;
+  top:80px;
+  left:150px;
+}
+.guarantee h4{
+  position: relative;
+  left:120px;
+  top:60px;
+}
+.guarantee label{
+  color: black;
+  position: relative;
+  top: 48px;
+  left: 25px;
+  font-size: 13px;
+}
+.secure
+{
+  width:25%;
+  height:250px;
+  background-color: lightgray; 
+}
+.secure img{
+  width:55px;
+  height:55px;
+  position: relative;
+  top:80px;
+  left:150px;
+}
+.secure h4{
+  position: relative;
+  left:80px;
+  top:60px;
+}
+.secure label:first-of-type{
+  color:black;
+  position: relative;
+  left:20px;
+  top:50px;
+  font-size: 13px;
+}
+.secure label:last-of-type{
+color:black;
+position: relative;
+  right:140px;
+  top:70px;
+  font-size:13px;
+}
+.contcatinfo
+{
+  width:100%;
+  height:370px;
+  background-color: black;
+}
+.contacts
+{
+  width:90%;
+  height:330px;
+  background-color:black;
+  margin-left: 70px;
+  border-bottom:1px solid white;
+  display: flex;
+}
+.contacts .contact1{
+  width:17.5%;
+  height:330px;
+  background-color:black;
+}
+.contact1 h4{
+  color:white;
+  position: relative;
+  left:0px;
+  top:10px;
+}
+.contact1 ul{
+  list-style-type: none;
+  position: relative;
+  right:40px;
+}
+.contact1 li{
+  margin-top:10px;
+}
+.contact1 a{
+  text-decoration: none;
+  color:white;
+  font-size:13px;
+}
+.contacts .contact2{
+  width:17.5%;
+  height:330px;
+  background-color:black;
+}
+/*second div*/
+.contact2 h4{
+  color:white;
+  position: relative;
+  left:0px;
+  top:10px;
+}
+.contact2 ul{
+  list-style-type: none;
+  position: relative;
+  right:40px;
+}
+.contact2 li{
+  margin-top:10px;
+}
+.contact2 a{
+  text-decoration: none;
+  color:white;
+  font-size:13px;
+}
+/*div 3 style*/
+.contacts .contact3{
+  width:17.5%;
+  height:330px;
+  background-color:black;
+}
+.contact3 h4{
+  color:white;
+  position: relative;
+  left:0px;
+  top:10px;
+}
+.contact3 ul{
+  list-style-type: none;
+  position: relative;
+  right:40px;
+}
+.contact3 li{
+  margin-top:10px;
+}
+.contact3 a{
+  text-decoration: none;
+  color:white;
+  font-size:13px;
+}
+/*div 4 style*/
+.contacts .contact4{
+  width:19%;
+  height:330px;
+  background-color:black;
+}
+.contact4 h4{
+  color:white;
+  position: relative;
+  left:0px;
+  top:10px;
+}
+.contact4 ul{
+  list-style-type: none;
+  position: relative;
+  right:40px;
+}
+.contact4 li{
+  margin-top:10px;
+}
+.contact4 a{
+  text-decoration: none;
+  color:white;
+  font-size:13px;
+}
+.contacts .contact5{
+  width:30%;
+  height:330px;
+  background-color: black;
+}
+.contact5 p{
+  color:white;
+  font-size: 13px;
+}
+.contact5
+{
+ color: #f5f5f5;
+}
+.contact5 label{
+  font-size:smaller;
+  color:white;
+  position: relative;
+  left:30px;
+}
+.contact5 a{
+  color:white;
+  font-size:13px;
+  font-weight:bold;
+}
+svg{
+  margin-left:20px;
+  position: relative;
+  right:20px;
+  top:10px;
+}
+.footer1
+{
+  color:white;
+  font-size:12px;
+  position: relative;
+  left:70px;
+}
+.footer2
+{
+  color:rgb(255, 255, 255);
+  font-size:13px;
+  font-weight: bold;
+  position:relative;
+  left:87%;
+  bottom:30px;
+  display: inline;
+
+}
+
